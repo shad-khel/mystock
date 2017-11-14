@@ -4,6 +4,9 @@
 
 /packages
 /.vs
-/Stock
 /Stock.Tests/obj/Release
 /Stock.Tests/obj/Debug
+/Stock/obj
+/Stock/bin
+/Stock/Properties/PublishProfiles
+/Stock/favicon.ico
