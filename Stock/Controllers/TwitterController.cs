@@ -10,9 +10,9 @@ namespace Stock.Controllers
 {
     public class TwitterController : Controller
     {
-        private YahooFinanceAPIHelper _YahooAPI;
+        private IStockProvider _YahooAPI;
 
-        public TwitterController(YahooFinanceAPIHelper YahooAPI)
+        public TwitterController(IStockProvider YahooAPI)
         {
             _YahooAPI = YahooAPI;
         }
